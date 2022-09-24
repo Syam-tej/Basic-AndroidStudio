@@ -32,14 +32,88 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Implicit Intent”.
-Developed by:
-Registeration Number :
+Developed by:P.SYAM TEJ
+Registeration Number :212221240056
 */
 ```
+### MainActivity.java
+```
+package com.example.project2;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.net.Uri;
+
+public class MainActivity extends AppCompatActivity {
+    EditText edit1;
+    Button Button1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        edit1 = findViewById(R.id.edit1);
+        Button1 = findViewById(R.id.Button1);
+
+        Button1.setOnClickListener(view ->{
+            String  url = edit1.getText().toString();
+            Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+            startActivity(intent);
+        });
+
+    }
+}
+```
+### activity_main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/txtView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter the website link"
+
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="300dp"
+    android:textSize="25sp"
+    android:textStyle="bold"
+/>
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_height="40dp"
+        android:layout_width="250dp"
+        android:hint="Enter here"
+        android:layout_below="@+id/txtView1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_below="@+id/edit1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
+```
 ## OUTPUT
 
+<img width="1009" alt="Screenshot 2022-09-24 at 10 32 04 PM" src="https://user-images.githubusercontent.com/93427224/192110133-ef104498-0b6f-435f-a50d-8d3f73c727ab.png">
 
+<img width="1008" alt="Screenshot 2022-09-24 at 10 32 29 PM" src="https://user-images.githubusercontent.com/93427224/192110158-b07bdb2f-120b-475a-93f0-bf9ef138e202.png">
 
 
 ## RESULT
