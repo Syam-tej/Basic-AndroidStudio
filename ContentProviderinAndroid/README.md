@@ -34,7 +34,7 @@ Registeration Number :212221240056
 ```
 ### MainActivity.java
 ```
-package com.sanath.contentproviderapp;
+package com.example.contentproviderapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
