@@ -152,7 +152,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## OUTPUT
 
+![8 1](https://user-images.githubusercontent.com/93427224/200480984-9346aebe-dcf4-45ed-ba2b-0bed03d16855.png)
 
+![8 2](https://user-images.githubusercontent.com/93427224/200480992-454adf27-8d99-494c-b88d-0ca9ca8b9a74.png)
 
 
 ## RESULT
