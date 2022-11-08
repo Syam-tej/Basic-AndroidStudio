@@ -10,7 +10,7 @@ To create a list using checkbox to display selected checkbox item using Android 
 Android Studio(Min.required Artic Fox)
 
 ## ALGORITHM:
-```
+````
 1.Open Android Studio and then click on File -> New -> New project.
 
 2.Then type the Application name as "listofitemselect" and click Next.
@@ -24,7 +24,8 @@ Android Studio(Min.required Artic Fox)
 6.Display the list using checkbox in MainActivity file.
 
 7.Save and run the application.
-```
+
+````
 
 ## PROGRAM:
 ```
