@@ -334,14 +334,17 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![](1.png)
-![](2.png)
-![](3.png)
-![](4.png)
-![](5.png)
-![](6.png)
+![1](https://user-images.githubusercontent.com/93427224/203962671-f3b292f5-2094-4cd6-aafa-0fe822b140ab.png)
 
+![2](https://user-images.githubusercontent.com/93427224/203962797-d8c445ba-c81c-4ce2-af90-26d94fca1f93.png)
 
+![3](https://user-images.githubusercontent.com/93427224/203962920-69724824-960f-42cb-8131-14bf7df7a764.png)
+
+![4](https://user-images.githubusercontent.com/93427224/203963031-14066264-2d83-4dba-8e77-a88cc9636e04.png)
+
+![5](https://user-images.githubusercontent.com/93427224/203963044-4309f3c0-3101-42ee-b81d-dad6ef78ae7d.png)
+
+![6](https://user-images.githubusercontent.com/93427224/203963058-2477bbf5-21e9-45bf-a666-62b2a986c05d.png)
 
 ## RESULT
 Thus a Simple Android Application to add animations: Move,blink,fade,clockwise,zoom,slide operations using Android Studio is developed and executed successfully.
