@@ -85,11 +85,12 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![](1.png)
-![](2.png)
-![](3.jpeg)
+![7](https://user-images.githubusercontent.com/93427224/203963847-12db2f0a-54ce-4051-9e70-2280acf691dd.png)
 
 
+![8](https://user-images.githubusercontent.com/93427224/203963859-b14d0ed4-3554-4356-ad07-2adf3825bc18.png)
+
+![9](https://user-images.githubusercontent.com/93427224/203963882-3cdc097b-bc00-49dd-8087-d89bc17e1714.png)
 
 
 ## RESULT
