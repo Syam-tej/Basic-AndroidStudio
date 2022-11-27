@@ -14,11 +14,9 @@ Android Studio(Min. required Artic Fox)
 
 ## PROGRAM:
 ```
-/*
 Program to create and design an android application to draw a shapes using 3D graphics with openGL ES.
-Developed by:
-Registeration Number :
-*/
+Developed by:P SYAM TEJ
+Registeration Number :212221240056
 ```
 ### MyGLActiviy.java
 ```
